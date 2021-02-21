@@ -1,8 +1,8 @@
-const Account = require("./Account.js");
+const Account = require("./Account");
 
 // Starting with only this test, take out .only once it is working
 // Add .only to the next test to do one at a time
-test.only("Account.js should export something", () => {
+test("Account.js should export something", () => {
   expect(Account).not.toBeNull();
 });
 
