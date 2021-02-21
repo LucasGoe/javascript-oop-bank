@@ -82,3 +82,13 @@ test("The daily limit for a withdrawal should be 5000, amounts over 5000 should 
 
   expect(accountInstance.balance).toBe(10000);
 });
+
+test("The daily limit for a withdrawal should be EXACTLY 5000, amounts over 5000 should be ignored", () => {
+  const balance = 10000;
+  const creditLimit = 500;
+  const accountInstance = new Account("Rein", balance, creditLimit);
+
+  accountInstance.makeWithdrawal(5000);
+
+  expect(accountInstance.balance).toBe(5000);
+});

@@ -4,8 +4,8 @@
     <list default="true" id="026c559c-7cb4-4a16-b7d1-8a6c4389f993" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Account.js" beforeDir="false" afterPath="$PROJECT_DIR$/Account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BusinessAccount.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessAccount.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NOTES.md" beforeDir="false" afterPath="$PROJECT_DIR$/NOTES.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Account.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Account.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessAccount.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessAccount.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613569418692</updated>
-      <workItem from="1613569420144" duration="49775000" />
+      <workItem from="1613569420144" duration="54336000" />
     </task>
     <servers />
   </component>

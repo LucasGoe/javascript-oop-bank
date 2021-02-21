@@ -104,6 +104,20 @@ test("The daily limit for a withdrawal should be 20000, amounts over 20000 shoul
   expect(businessAccountInstance.balance).toBe(50000);
 });
 
+test("The daily limit for a withdrawal should be EXACTLY 20000, amounts over 20000 should be ignored", () => {
+  const balance = 50000;
+  const creditLimit = 500;
+  const businessAccountInstance = new BusinessAccount(
+      "ACME.CO",
+      balance,
+      creditLimit
+  );
+
+  businessAccountInstance.makeWithdrawal(20000);
+
+  expect(businessAccountInstance.balance).toBe(30000);
+});
+
 test("A BusinessAccount have the sepaInvoice method", () => {
   const businessAccountInstance = new BusinessAccount();
 
