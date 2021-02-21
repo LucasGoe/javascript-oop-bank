@@ -18,7 +18,7 @@ class BusinessAccount {
             this.balance = this.balance + amount;
             // console.log(this.balance);
         }
-        return this.balance;
+        // return this.balance;
     }
 
     makeWithdrawal(amount) {
@@ -31,7 +31,7 @@ class BusinessAccount {
             this.balance = this.balance - amount;
         }
         // console.log("BALANCE: ", this.balance)
-        return this.balance;
+        // return this.balance;
     }
 
     sepaInvoice(amount) {
